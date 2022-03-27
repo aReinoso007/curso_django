@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Choice, Question
+
+#Esto para poder revisar los modelos desde la pagina de administracion de django
+admin.site.register(Question)
+admin.site.register(Choice)
