@@ -10,3 +10,7 @@ It helps to gather data through the use of polls. It makes use of the design pat
 * HTTP requests and responses
 * Queries using Djando ORM
 * Project structure 
+* Django interactive shell
+* Django admin
+* Forms
+* Generic Views
