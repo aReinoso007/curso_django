@@ -4,7 +4,6 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Esta es la pagina de las preguntas")
 
-
 def detail(request, question_id):
     return HttpResponse(f"Estas viendo la pregunta numero {question_id}")
 
